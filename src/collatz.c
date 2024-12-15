@@ -18,6 +18,15 @@ int main(int argc, char *argv[])
     }
 }
 
+/******************************************************************
+ *
+ *  Function: collatz
+ *
+ *  Description:
+ *      Computes how many iterations of the Collatz conjecture a 
+ *      given number n takes to reach 1.
+ *
+ ******************************************************************/
 int collatz(int n)
 {
     int i = 0;
@@ -37,4 +46,4 @@ int collatz(int n)
     }
 
     return i;
-}
+} /* collatz */
